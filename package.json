@@ -9,6 +9,7 @@
     "cdk8s": "bin/cdk8s"
   },
   "scripts": {
+    "prepare": "npx tsc --build || true",
     "build": "npx projen build",
     "bump": "npx projen bump",
     "clobber": "npx projen clobber",
